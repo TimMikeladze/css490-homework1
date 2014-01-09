@@ -83,7 +83,7 @@ public class MainActivity extends Activity implements OnClickListener {
         else if (value.contentEquals(".")) {
             valid = false;
             error = "Incorrect value";
-            toast = "Please enter a correct";
+            toast = "Please enter a correct value";
         }
         
         if (!valid) {
